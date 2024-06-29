@@ -21,3 +21,21 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+/*
+
+
+
+Explanation
+SyntaxHighlighter: This component from react-syntax-highlighter renders the code with syntax highlighting based on the language specified (javascript in this case).
+Textarea: Allows users to edit the code directly. The onChange handler updates the code state, which in turn updates both the displayed code and the syntax highlighting.
+useState: Manages the state of the code being edited.
+prism style: This is imported from react-syntax-highlighter/dist/esm/styles/prism to provide styling for syntax highlighting.
+
+
+
+
+
+
+
+/*
